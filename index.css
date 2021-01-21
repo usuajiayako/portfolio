@@ -8,4 +8,18 @@ body {
 .title {
   font-size: 60pt;
   color: gray;
+  background-color: Beige;
+}
+
+.my-image {
+  border-radius: 50%;
+  border-color: gray;
+  border: 10px solid gray;
+  height: 25%;
+  width: 25%;
+}
+
+.project-img {
+  height: 50px;
+  width: 50px;
 }
