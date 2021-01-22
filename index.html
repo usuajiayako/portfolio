@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+  
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Portfolio Site</title>
   <link rel="stylesheet" href="index.css">
 </head>
+
 <body>
   <h1 class="title">Welcome to Ayako's Portfolio Site</h1>
-  <img class="my-image-small" src="/images/my-image.PNG" alt="my image small">
-  <a href="/who-am-i.html">Who am I?</a>
+  <div id="who-am-i">
+    <img class="my-image-small" src="/images/my-image.PNG" alt="my image small">
+    <a href="/who-am-i.html">Who am I?</a>
+  </div>
   <div id="main">
     <div class="languages">
       <h2>Languages</h2>
@@ -24,18 +28,30 @@
     </div>
     <div class="projects">
       <h2>Projects</h2>
-      <ul>
-        <li>Personal project</li>
-        <img class="project-img" src="/images/cryptocurrency.jpg" alt="personal project img">
-        <li>JavaScript project</li>
-        <img class="project-img" src="/images/pokemon.png" alt="javascript project img">
-        <li>Backend project</li>
-        <img class="project-img" src="/images/nc-news.png" alt="backend project img">
-        <li>Frontend project</li>
-        <img class="project-img" src="/images/question-mark.png" alt="frontend project img">
-        <li>Final project</li>
-        <img class="project-img" src="/images/question-mark.png" alt="final project img">
-      </ul>
+      <div id="project-lists">
+        <ul>
+          <div id="project-items">
+            <li>Personal project</li>
+            <img class="project-img" src="/images/cryptocurrency.jpg" alt="personal project img">
+          </div>
+          <div id="project-items">
+            <li>JavaScript project</li>
+            <img class="project-img" src="/images/pokemon.png" alt="javascript project img">
+            </div>
+            <div id="project-items">
+            <li>Backend project</li>
+            <img class="project-img" src="/images/nc-news.png" alt="backend project img">
+          </div>
+          <div id="project-items">
+            <li>Frontend project</li>
+            <img class="project-img" src="/images/question-mark.png" alt="frontend project img">
+          </div>
+          <div id="project-items">
+            <li>Final project</li>
+            <img class="project-img" src="/images/question-mark.png" alt="final project img">
+          </div>
+        </ul>
+      </div>
     </div>
     <div class="contact">
       <h2>Contact</h2>

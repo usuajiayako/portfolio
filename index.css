@@ -2,7 +2,6 @@ body {
   display: flex;
   flex-direction: column;
   font-family: Helvetica;
-  
 }
 
 .title {
@@ -12,6 +11,12 @@ body {
   border: 5px solid darkgray;
   text-align: center;
   border-radius: 10px;
+}
+
+#who-am-i {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
 }
 
 .my-image {
@@ -26,8 +31,8 @@ body {
   border-radius: 50%;
   border-color: gray;
   border: 2px solid gray;
-  height: 5%;
-  width: 5%;
+  height: 10%;
+  width: 10%;
 }
 
 .project-img {
@@ -35,18 +40,21 @@ body {
   width: 50px;
 }
 
-#main {
+/* #main {
   display: flex;
-}
+} */
 
 .languages {
   background-color: wheat;
   border-radius: 10px;
-  margin: 5px;
+  border: solid darkgray;
+  margin: 20px;
 }
 
-.languages h2 {
-  padding-left: 10px;
+h2 {
+  text-align: center;
+  border: solid darkgray;
+  margin: 20px;
 }
 
 .projects ul {
@@ -56,18 +64,35 @@ body {
 .projects {
   background-color: wheat;
   border-radius: 10px;
-  margin: 5px;
+  border: solid darkgray;
+  margin: 20px;
 }
 
-.projects h2 {
-  padding-left: 10px;
+#project-items {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  width: 15%;
+  flex-direction: row;
+}
+
+#project-lists {
+  align-items: center;
 }
 
 .contact {
   background-color: wheat;
   border-radius: 10px;
-  margin: 5px;
+  border: solid darkgray;
+  margin: 20px;
+  text-align: center;
 }
-.contact h2 {
-  padding-left: 10px;
+
+#project-items {
+  border: solid darkgray;
+  display: flex;
+  flex-direction: column;
+
 }
