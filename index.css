@@ -52,14 +52,6 @@ body {
   text-align: center;
 }
 
-.my-image {
-  border-radius: 50%;
-  border-color: gray;
-  border: 10px solid gray;
-  height: 25%;
-  width: 25%;
-}
-
 .my-image-small {
   border-radius: 50%;
   border-color: gray;
@@ -99,10 +91,8 @@ h2 {
   letter-spacing: 5px;
 }
 
-#projects ul {
-  list-style-type: none;
-}
 
+/* Projects */
 #projects {
   background-color: wheat;
   border-radius: 10px;
@@ -111,18 +101,18 @@ h2 {
 }
 
 #project-items {
+  list-style-type: none;
   display: flex;
   align-items: center;
   padding: 10px;
   margin: 10px;
   border-radius: 10px;
   width: 15%;
-  flex-direction: row;
 }
 
-#project-lists {
-  align-items: center;
-}
+/* #project-lists {
+  justify-content: center;
+} */
 
 #contact {
   background-color: wheat;
