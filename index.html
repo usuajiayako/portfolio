@@ -8,25 +8,40 @@
   <link rel="stylesheet" href="index.css">
 </head>
 
-<body>
-  <h1 class="title">Welcome to Ayako's Portfolio Site</h1>
-  <div id="who-am-i">
+<div class="wrapper">
+ <body>
+  <nav class="gnav" class="fixed">
+    <h1 class="title">Welcome to Ayako's Portfolio Site</h1>
+    <ul class="gnav-list">
+      <li class="gnav-item"><a class="gnav-link" href="#language">Languages</a></li>
+      <li class="gnav-item"><a class="gnav-link" href="#projects">Projects</a></li>
+      <li class="gnav-item"><a class="gnav-link" href="#contact">Contact</a></li>
+    </ul>
+
+  </nav>
+
+  <section id="who-am-i">
     <img class="my-image-small" src="/images/my-image.PNG" alt="my image small">
-    <a href="/who-am-i.html">Who am I?</a>
-  </div>
-  <div id="main">
-    <div class="languages">
+    <p>Hiya!! I am a junior software developer living in <b>West Yorkshire</b>. I moved from Japan to Wakefield in Apr 2019. I have been currently on <b>Northcoders</b> coding bootcamp since Nov 2020.</p> 
+  </section>
+
+  <p class="northcoders"><a href="https://northcoders.com/our-courses/coding-bootcamp">What is Northcorders?</a></p>
+
+  <section class="main">
+    <section id="languages">
       <h2>Languages</h2>
-      <ul>
-        <li>JavaScript</li>
-        <li>Node.js</li>
-        <li>PostgreSQL</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>React</li>
+
+      <ul class="language-list">
+        <li class="language-item">JavaScript</li>
+        <li class="language-item">Node.js</li>
+        <li class="language-item">PostgreSQL</li>
+        <li class="language-item">HTML</li>
+        <li class="language-item">CSS</li>
+        <li class="language-item">React</li>
       </ul>
-    </div>
-    <div class="projects">
+    </section>
+
+    <section id="projects">
       <h2>Projects</h2>
       <div id="project-lists">
         <ul>
@@ -52,11 +67,13 @@
           </div>
         </ul>
       </div>
-    </div>
-    <div class="contact">
+    </section>
+
+    <section id="contact">
       <h2>Contact</h2>
       <a href="mailto: usuajiayako@gmail.com">Send an Email</a>
-    </div>
-  </div>
-</body>
+    </section>
+  </section>
+ </body>
+</div>
 </html>
