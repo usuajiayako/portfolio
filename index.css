@@ -67,12 +67,12 @@ body {
 }
 
 
-
 #languages {
   background-color: wheat;
   border-radius: 10px;
   border: solid darkgray;
   margin: 20px;
+  margin-top: 50px;
 }
 
 h2 {
@@ -99,6 +99,7 @@ h2 {
   border-radius: 10px;
   border: solid darkgray;
   margin: 20px;
+  margin-top: 50px;
 }
 
 #project-items {
@@ -121,6 +122,7 @@ h2 {
   border: solid darkgray;
   margin: 20px;
   text-align: center;
+  margin-top: 50px;
 }
 
 #project-items {
