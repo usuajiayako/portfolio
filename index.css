@@ -4,25 +4,13 @@ body {
   flex-direction: column;
   font-family: Comic Sans MS, Comic Sans, cursive;
 }
-.gnav {
+.header {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   background-color: white;
   border-bottom: solid gray;
-}
-
-.gnav-list {
-  display: flex;
-  justify-content: center;
-  list-style-type: none;
-}
-
-.gnav-link {
-  font-size: 20px;
-  padding: 0 50px;
-  letter-spacing: 5px;
 }
 
 .title {
