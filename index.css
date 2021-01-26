@@ -50,13 +50,17 @@ body {
   text-align: center;
 }
 
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
 /* Languages */
 #languages {
   background-color: wheat;
   border-radius: 10px;
   border: solid darkgray;
   margin: 20px;
-  margin-top: 50px;
 }
 
 h2 {
@@ -87,7 +91,6 @@ h2 {
   border-radius: 10px;
   border: solid darkgray;
   margin: 20px;
-  margin-top: 50px;
 }
 
 .project-lists {
@@ -115,7 +118,6 @@ h2 {
   border: solid darkgray;
   margin: 20px;
   text-align: center;
-  margin-top: 50px;
 }
 
 .contact-list {
