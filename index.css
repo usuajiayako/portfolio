@@ -109,6 +109,7 @@ h2 {
   border-radius: 10px;
   width: 15%;
   font-size: 20px;
+  margin-left: 20px;
 }
 
 
@@ -123,4 +124,10 @@ h2 {
 .contact-list {
   display: flex;
   justify-content: space-around;
+}
+
+.project {
+  display: flex;
+  flex-direction: row;
+  justify-items: flex-start;
 }
