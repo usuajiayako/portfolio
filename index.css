@@ -101,13 +101,15 @@ h2 {
   background-color: wheat;
   border-radius: 10px;
   border: solid darkgray;
-  margin: 20px;
+  margin-top: 20px;
   text-align: center;
 }
 
 .contact-list {
   display: flex;
   justify-content: space-around;
+  /* margin-left: 20px;
+  margin-right: 20px; */
 }
 
 
@@ -213,7 +215,7 @@ h2 {
     background-color: wheat;
     border-radius: 10px;
     border: solid darkgray;
-    margin: 20px;
+    margin-top: 20px;
     text-align: center;
   }
   
